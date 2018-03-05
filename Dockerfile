@@ -1,4 +1,4 @@
-FROM suckatrash/mariadb
+FROM mariadb
 ENV MYSQL_DATABASE=mediawiki
 RUN apt-get update && \
 apt-get install -y sed
